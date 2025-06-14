@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+}
+header{
+    background-image: url(images/background\ img.jfif);
+    height: 900px;
+    background-size: 100%;
+}
+.headerlist{
+    display: flex;
+    margin: 0;
+    justify-content: space-evenly;
+    list-style: none;
+    color: white;
+}
+.txt{
+    margin-top: 100px;
+    margin-left: 150px;
+    color: white;
+}
+.button{
+    color: white;
+    height: 30px;
+    background-color: rgb(124, 124, 29);
+    border-color: rgb(124, 124, 29);
+    margin-left: 150px;
+}
