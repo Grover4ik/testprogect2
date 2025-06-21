@@ -22,6 +22,9 @@ header{
     color: white;
     font-family: Fraunces;
 }
+.bigtxt{
+   font-family: Fraunces;
+}
 .txt{
     margin-top: 100px;
     margin-left: 150px;
