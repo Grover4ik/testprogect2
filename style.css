@@ -11,7 +11,7 @@ body{
 }
 header{
     background-image: url(images/background\ img.jfif);
-    height: 900px;
+    height: 500px;
     background-size: 100%;
 }
 .headerlist{
@@ -38,5 +38,20 @@ header{
     border-color: rgb(124, 124, 29);
     margin-left: 150px;
     border-radius: 3px;
+    font-family: intern;
+}
+main{
+    background-color: rgb(145, 60, 145);
+}
+.mainimgtxt{
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+     font-family: intern;
+}
+.txts{
+    text-align: center;
+    align-items: center;
+    color: white;
     font-family: intern;
 }
