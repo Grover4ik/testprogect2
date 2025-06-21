@@ -1,3 +1,11 @@
+@font-face {
+    font-family: intern;
+    src: url(fonts/Inter-VariableFont_opsz\,wght.ttf);
+}
+@font-face {
+    font-family: Fraunces;
+    src: url(fonts/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf);
+}
 body{
     margin: 0;
 }
@@ -12,11 +20,13 @@ header{
     justify-content: space-evenly;
     list-style: none;
     color: white;
+    font-family: Fraunces;
 }
 .txt{
     margin-top: 100px;
     margin-left: 150px;
     color: white;
+    font-family: intern;
 }
 .button{
     color: white;
@@ -25,4 +35,5 @@ header{
     border-color: rgb(124, 124, 29);
     margin-left: 150px;
     border-radius: 3px;
+    font-family: intern;
 }
