@@ -24,4 +24,5 @@ header{
     background-color: rgb(124, 124, 29);
     border-color: rgb(124, 124, 29);
     margin-left: 150px;
+    border-radius: 3px;
 }
