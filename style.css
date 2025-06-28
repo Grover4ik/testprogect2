@@ -8,6 +8,7 @@
 }
 body{
     margin: 0;
+    padding: 50px 50px 50px 50px;
 }
 header{
     background-image: url(images/background\ img.jfif);
@@ -21,6 +22,7 @@ header{
     list-style: none;
     color: white;
     font-family: Fraunces;
+    padding-top: 30px;
 }
 .bigtxt{
    font-family: Fraunces;
@@ -47,15 +49,60 @@ main{
     display: flex;
     justify-content: space-evenly;
     color: white;
-     font-family: intern;
+    font-family: intern;
+    padding-top: 30px;
 }
 .txts{
     text-align: center;
     align-items: center;
     color: white;
     font-family: intern;
+    margin-top: 50px;
 }
 .imgs{
     display: flex;
     justify-content: space-evenly;
+    margin-top: 50px;
+}
+.buttons{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: intern;
+    color: white;
+    margin-top: 50px;
+}
+.but{
+    background-color: gray;
+    border-radius: 4px;
+    color: white;
+}
+.items{
+    display: flex;
+    justify-content: space-evenly;
+    font-family: intern;
+    color: white;
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+footer{
+    background-color: grey;
+    height: 186px;
+}
+.footerlist{
+    margin: 0;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    list-style: none;
+    color: white;
+    font-family: Fraunces;
+}
+.li{
+    margin: 10px;
+}
+.lists{
+    display: flex;
+    justify-content: space-around;
 }
