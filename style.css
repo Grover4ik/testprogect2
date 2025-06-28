@@ -55,3 +55,7 @@ main{
     color: white;
     font-family: intern;
 }
+.imgs{
+    display: flex;
+    justify-content: space-evenly;
+}
